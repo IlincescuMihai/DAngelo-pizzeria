@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pizza Sibiu D'Angelo</title>
+    <meta name="description" content="Pizza delicioasa din Sibiu D'Angelo" />
+    <meta name="keywords" content="pizza, pizza sibiu, pizza D'Angelo" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans"
+    />
+    <!--
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- banner -->
+    <section id="banner">
+      <div class="bg-color">
+        <header id="header">
+          <div class="container">
+            <div id="mySidenav" class="sidenav">
+              <a
+                href="javascript:void(0)"
+                class="closebtn"
+                onclick="closeNav()"
+              >
+                &times;
+              </a>
+              <a href="#menu-list">Meniu</a> <a href="#contact"> Contact </a>
+            </div>
+            <!-- Use any element to open the sidenav -->
+            <span onclick="openNav()" class="float-right menu-icon">☰</span>
+          </div>
+        </header>
+        <div class="container">
+          <div class="row">
+            <div class="inner text-center pageTitle">
+              <h1 class="logo-name">Pizza D'Angelo</h1>
+              <h2>
+                O pizza rapida si gustoasa oferita cu cel mai mare zambet.
+              </h2>
+              <p>Specializati in mancare Italiana</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / banner -->
+    <!-- menu -->
+    <section id="menu-list">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center marb-35 mt-2">
+            <h1 class="header-h mb-0">Meniu</h1>
+            <i class="fas fa-arrow-down"></i>
+            <p class="header-p">
+              Servicii de calitate, savoare, promtitudine si bineinteles
+              seriozitate.
+            </p>
+          </div>
+
+          <div class="col-md-12  text-center" id="menu-flters">
+            <ul>
+              <li>
+                <a class="filter active" data-filter=".menu-restaurant"
+                  >Meniu Restaurant</a
+                >
+              </li>
+              <li><a class="filter" data-filter=".pizza">Pizza</a></li>
+              <li><a class="filter" data-filter=".pizza">Paste</a></li>
+              <li><a class="filter" data-filter=".pizza">Supe</a></li>
+              <li><a class="filter" data-filter=".pizza">Salate</a></li>
+            </ul>
+          </div>
+
+          <div id="menu-wrapper">
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza vegetariana</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">17 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, vinete 50g, dovlecel
+                50g, ciuperci 60g, ardei 40g, ceapa 20g, masline 20g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Focaccia</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">10 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, ulei de masline 10g, oregano 15g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Focaccia cu verdeturi</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">17 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, salata verde 100g, rosii proaspete 120g, porumb
+                30g, ardei 40g, valeriana 30g, rucola 30g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Amore mio</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">17 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, sunca 40g, bacon
+                50g, pui 40g, ciuperci 40g, masline 40g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza D'Angelo</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">18 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, sunca 80g, salam
+                70g, ciuperci 80g, ardei 30g, ceapa 20g, masline 40g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Tonno</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">17 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, ton conserva 130g,
+                ceapa 30g, masline 50g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Quattro Stagioni</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">17 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, sunca 50g, salam
+                50g, ciuperci 40g, ardei 20g, masline 30g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Pollo</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">$20.99</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, piept pui 80g,
+                porumb 50g, ardei 40g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Prosciutto crudo e rucola</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, crudo 100g, rucola
+                30g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Calzone</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">17 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, sunca 50g, ciuperci
+                30g, ardei 30g, ceapa 20g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Hawai</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, mozzarela 140g, sunca 50g, ananas 90g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Salami</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, salam bombieri
+                70g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Salami</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, salam bombieri
+                70g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Salami</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, salam bombieri
+                70g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Salami</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, salam bombieri
+                70g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Salami</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, salam bombieri
+                70g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Salami</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, salam bombieri
+                70g</span
+              >
+            </div>
+
+            <div class="pizza menu-restaurant">
+              <span class="clearfix">
+                <a
+                  class="menu-title"
+                  href="#"
+                  data-meal-img="assets/img/restaurant/rib.jpg"
+                  >Pizza Salami</a
+                >
+                <span
+                  style="left: 166px; right: 44px;"
+                  class="menu-line"
+                ></span>
+                <span class="menu-price">16 Ron</span>
+              </span>
+              <span class="menu-subtitle"
+                >300g aluat, sos rosii 60g, mozzarela 120g, salam bombieri
+                70g</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / menu -->
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-4 mr-15">
+            <div class="menu-restaurant">
+              <div class="media-left">
+                <div class="contact-phone bg-1 text-center">
+                  <span class="phone-in-talk fas fa-phone"></span>
+                </div>
+              </div>
+              <div class="media-body">
+                <h4 class="dark-blue regular">Comanda la telefonul</h4>
+                <p class="light-blue regular alt-p">0369 441 214</p>
+              </div>
+            </div>
+            <div class="menu-restaurant">
+              <div class="media-left">
+                <div class="contact-email bg-14 text-center">
+                  <span style="font-size: 3em; color: white;">
+                    <i class="far fa-clock"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="media-body">
+                <h4 class="dark-blue regular">Program de lucru</h4>
+                <p class="light-blue regular alt-p">
+                  De luni pana duminica 12.00 - 22:00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / contact -->
+    <!-- footer -->
+    <footer class="footer text-center ">
+      <div class="row ">
+        <div class="col-md-12 text-center mt-5">
+          <div class="widget">
+            <h4 class="widget-title">D'Angelo Sibiu</h4>
+            <address>Str.Valea Aurie nr 8, Sibiu</address>
+            <div class="social-list">
+              <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- / footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+  </body>
+</html>
